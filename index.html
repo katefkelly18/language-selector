@@ -9,80 +9,109 @@
   </head>
   <body>
     <div class="container">
-      <h2>Learning to Code: How to decide which coding language to learn while preparing for an internship.</h2>
+      <div class="jumbotron">
+        <h1>Learning to Code:</h1>
+          <h2>How to find your ideal coding language while preparing for an internship or job as a Software Engineer.</h2>
+      <div>
+        <p>While enrolled in a coding bootcamp, it can be challenging to decide which language to continue learning once class has ended. There are a number of languages that coding students can learn while in coding school and while continuing their education including Javascript, C#, Ruby, Go, Python, Rust, Swift and more. Use the questionnaire below to see which language might work best for you.</p>
 
-      <p>While enrolled in a coding bootcamp, it can be challenging to decide which language to contnue learning. On this site you can use the below questionare to answer a few questions that will help guide you to the best language for you based on your qualifications.</p>
+    <div class="panel panel-default">
+      <div class="panel-body">
+        <div class="education">
+          <label for="education">Please select your highest level of education:</label>
+        </div>
+        <div class="radio">
+          <label>
+            <input type="radio" name="education" value="somehighschool" checked>
+            Some Highschool
+          </label>
+        </div>
+        <div class="radio">
+          <label>
+            <input type="radio" name="education" value="highschool" checked>
+            Highschool Diploma
+          </label>
+        </div>
+        <div class="radio">
+          <label>
+            <input type="radio" name="education" value="somecollege" checked>
+            Some College
+          </label>
+        </div>
+        <div class="radio">
+          <label>
+            <input type="radio" name="education" value="associatedegree" checked>
+            Associate Degree
+          </label>
+        </div>
+        <div class="radio">
+          <label>
+            <input type="radio" name="education" value="bachelordegree" checked>
+            Bachelors Degree
+          </label>
+        </div>
+        <div class="radio">
+          <label>
+            <input type="radio" name="education" value="mastersdegree" checked>
+            Masters Degree or Higher
+          </label>
+        </div>
+      </div>
+    </div>
 
-      <div id="blanks">
-        <form>
-          <div class="form-group">
-            <label for="name">Your Name:</label>
-            <input id="name" class="form-control" type="text">
+    <div class="panel panel-default">
+      <div class="panel-body">
+        <div class="time">
+          <label for="time">Please select your below working style:</label>
+        </div>
+        <div class="radio">
+          <label>
+            <input type="radio" name="time" value="alone" checked>
+            Alone, I work best when I can make the decisions.
+          </label>
+        </div>
+        <div class="radio">
+          <label>
+            <input type="radio" name="work" value="group">
+            Group, I enjoy collaborating and do not like to make decisions on my own.
+          </label>
+        </div>
+        <div class="radio">
+          <label>
+            <input type="radio" name="work" value="all">
+            Both, I am capable of working along but also enjoy working as a group member.
+          </label>
+        </div>
+      </div>
+    </div>
+
+      <div class="panel panel-default">
+        <div class="panel-body">
+          <div class="time">
+            <label for="education">Please select how much time you estimate that you can dedicate to studying per week:</label>
           </div>
-
-          <div class="form-group">
-            <label for="age">Age:</label>
-            <input id="age" class="form-control" type="text">
+          <div class="radio">
+            <label>
+              <input type="radio" name="time" value="small" checked>
+              1-2 hours
+            </label>
+          </div>
+          <div class="radio">
+            <label>
+              <input type="radio" name="time" value="medium" checked>
+              2-4 hours
+            </label>
+          </div>
+          <div class="radio">
+            <label>
+              <input type="radio" name="time" value="large" checked>
+              4-6 hours or more
+            </label>
           </div>
       </div>
-
-        <div class="education">
-            <label for="education">Please select your highest level of education:</label>
-        </div>
-          <div class="radio">
-            <label>
-            <input type="radio" name="education" value="highschool" checked>
-              Highschool
-            </label>
-          </div>
-
-          <div class="radio">
-            <label>
-              <input type="radio" name="education" value="somecollege">
-              Some College
-            </label>
-          </div>
-
-          <div class="radio">
-            <label>
-              <input type="radio" name="education" value="associatedegree">
-              AA/AS Degree
-            </label>
-          <div class="radio">
-            <label>
-              <input type="radio" name="education" value="bachelordegree">
-              Bachelor Degree
-            </label>
-          <div class="radio">
-            <label>
-              <input type="radio" name="education" value="mastersdegree">
-              Masters Degree or Higher
-            </label>
-          </div>
-
-          <div class="work">
-              <label for="work">Please select your preferred work style:</label>
-          </div>
-              <input type="radio" name="work" value="alone" checked>
-                Alone, I work best when I can make the decisions.
-
-          <div class="radio">
-            <label>
-              <input type="radio" name="work" value="group">
-              Group, I enjoy collaborating and do not like to make decisions on my own.
-            </label>
-          </div>
-
-          <div class="radio">
-            <label>
-              <input type="radio" name="work" value="all">
-              Both, I am capable of working along but also enjoy working as a group member.
-            </label>
-          </div>
-
-
-          <button type="submit" class="btn">Show me the story!</button>
-        </form>
     </div>
+
+
+        <button type="button" class="btn btn-primary btn-md">Click here to see your ideal language!</button>
   </body>
 </html>
