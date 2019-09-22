@@ -11,10 +11,10 @@
     <div class="container">
       <div class="jumbotron">
         <h1>Learning to Code:</h1>
-          <h2>How to find your ideal coding language while preparing for an internship or job as a Software Engineer.</h2>
-      <div>
+        <h2>How to find your ideal coding language while preparing for an internship or job as a Software Engineer.</h2>
         <p>While enrolled in a coding bootcamp, it can be challenging to decide which language to continue learning once class has ended. There are a number of languages that coding students can learn while in coding school and while continuing their education including Javascript, C#, Ruby, Go, Python, Rust, Swift and more. Use the questionnaire below to see which language might work best for you.</p>
-
+      </div>
+    <form id="language-selector">
     <div class="panel panel-default">
       <div class="panel-body">
         <div class="education">
@@ -28,20 +28,14 @@
         </div>
         <div class="radio">
           <label>
-            <input type="radio" name="education" value="associatedegree" checked>
+            <input type="radio" name="education" value="associate" checked>
             Associate Degree
           </label>
         </div>
         <div class="radio">
           <label>
-            <input type="radio" name="education" value="bachelordegree" checked>
+            <input type="radio" name="education" value="bachelor" checked>
             Bachelors Degree
-          </label>
-        </div>
-        <div class="radio">
-          <label>
-            <input type="radio" name="education" value="mastersdegree" checked>
-            Masters Degree or Higher
           </label>
         </div>
       </div>
@@ -132,12 +126,6 @@
         </div>
         <div class="radio">
           <label>
-            <input type="radio" name="location" value="vancouver" checked>
-            Vancouver B.C.
-          </label>
-        </div>
-        <div class="radio">
-          <label>
             <input type="radio" name="location" value="seattle" checked>
             Seattle
           </label>
@@ -156,23 +144,22 @@
         </div>
     </div>
   </div>
+  </form>
+  <button type="button" class="btn btn-success btn-md">Click here to see your ideal language!</button>
 
-<div id="option-one">
+<div id="javascript">
   <h1>Your match: Javascript</h1>
     <p>You have matched with Javascript. We think you will only need a highschool level education to learn this language with atleast one hour of time per week to study. We recommend using <a href="https://studio.code.org/courses" target="_blank">Code.org </a> to learn more about this language. </p>
 </div>
 
-<div id="option-two">
+<div id="csharp">
   <h1>Your match: C#</h1>
     <p>You have matched with C# (C sharp). We think this requires an education background of atleast a Bachelors degree to learn with 2 or more hours of time to study each week. We recommend using <a href="https://www.codecademy.com/"target="_blank">Code Academy</a> to learn more about this language.</p>
 </div>
 
-<div id="option-three">
+<div id="python">
   <h1>Your match: Python</h1>
     <p>You have matched with Python. We think that this language requires more of an educational background with more than 4 hours of study time each week. We recommend using <a href="https://www.w3schools.com/python/default.asp"target="_blank">w3schools</a> to learn more about this language.</p>
 </div>
-
-
-        <button type="button" class="btn btn-success btn-md">Click here to see your ideal language!</button>
   </body>
 </html>
