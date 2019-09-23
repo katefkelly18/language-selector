@@ -7,7 +7,7 @@
 ## Setup/Installation Requirements
 This webpage may be viewed on any web browser and edited by following the instructions below to clone or download the repository to your computer.
 
-Click [here] https://github.com/katefkelly18/language-selector.git to open the GitHub website.
+Click https://github.com/katefkelly18/language-selector.git to open the GitHub website.
 
 ###### From GitHub
 1. Click the **Clone or download** menu button.
@@ -27,9 +27,9 @@ _Contact Kate Kelly for more information._
 ## Technologies Used
 * _html_
 * _css_
-*_Bootstrap_
-*_Javascript_
-*_JQuery_
+* _Bootstrap_
+* _Javascript_
+* _JQuery_
 
 
 ## License
