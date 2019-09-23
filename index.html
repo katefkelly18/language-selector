@@ -17,6 +17,17 @@
     <form id="language-selector">
     <div class="panel panel-default">
       <div class="panel-body">
+        <select class="form-control" id="gender">
+          <label for="gender">Please select your gender:</label>
+          <option></option>
+          <option>Female</option>
+          <option>Male</option>
+          <option>I do not identify as male or female</option>
+        </select>
+      </div>
+    </div>
+      <div class="panel panel-default">
+        <div class="panel-body">
         <div class="education">
           <label for="education">Please select your highest level of education:</label>
         </div>
@@ -40,7 +51,6 @@
         </div>
       </div>
     </div>
-
     <div class="panel panel-default">
       <div class="panel-body">
         <div class="level">
@@ -66,11 +76,10 @@
         </div>
       </div>
     </div>
-
     <div class="panel panel-default">
       <div class="panel-body">
         <div class="work">
-          <label for="time">Please select your below working style:</label>
+          <label for="work">Please select your below working style:</label>
         </div>
         <div class="radio">
           <label>
@@ -92,7 +101,6 @@
         </div>
       </div>
     </div>
-
       <div class="panel panel-default">
         <div class="panel-body">
           <div class="time">
@@ -144,22 +152,22 @@
         </div>
     </div>
   </div>
-  </form>
   <button type="button" class="btn btn-success btn-md">Click here to see your ideal language!</button>
+  </form>
 
-<div id="javascript">
-  <h1>Your match: Javascript</h1>
-    <p>You have matched with Javascript. We think you will only need a highschool level education to learn this language with atleast one hour of time per week to study. We recommend using <a href="https://studio.code.org/courses" target="_blank">Code.org </a> to learn more about this language. </p>
-</div>
-
-<div id="csharp">
-  <h1>Your match: C#</h1>
-    <p>You have matched with C# (C sharp). We think this requires an education background of atleast a Bachelors degree to learn with 2 or more hours of time to study each week. We recommend using <a href="https://www.codecademy.com/"target="_blank">Code Academy</a> to learn more about this language.</p>
-</div>
-
-<div id="python">
-  <h1>Your match: Python</h1>
-    <p>You have matched with Python. We think that this language requires more of an educational background with more than 4 hours of study time each week. We recommend using <a href="https://www.w3schools.com/python/default.asp"target="_blank">w3schools</a> to learn more about this language.</p>
-</div>
+  <div id="results">
+    <div id="javascript">
+      <h1>Your match: Javascript</h1>
+        <p>You have matched with Javascript. We think you will only need a highschool level education to learn this language with atleast one hour of time per week to study. We recommend using <a href="https://studio.code.org/courses" target="_blank">Code.org </a> to learn more about this language. </p>
+    </div>
+    <div id="csharp">
+      <h1>Your match: C#</h1>
+        <p>You have matched with C# (C sharp). We think this requires an education background of atleast a Bachelors degree to learn with 2 or more hours of time to study each week. We recommend using <a href="https://www.codecademy.com/"target="_blank">Code Academy</a> to learn more about this language.</p>
+    </div>
+    <div id="python">
+      <h1>Your match: Python</h1>
+        <p>You have matched with Python. We think that this language requires more of an educational background with more than 4 hours of study time each week. We recommend using <a href="https://www.w3schools.com/python/default.asp"target="_blank">w3schools</a> to learn more about this language.</p>
+    </div>
+  </div>
   </body>
 </html>
