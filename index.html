@@ -26,8 +26,8 @@
         </select>
       </div>
     </div>
-      <div class="panel panel-default">
-        <div class="panel-body">
+    <div class="panel panel-default">
+      <div class="panel-body">
         <div class="education">
           <label for="education">Please select your highest level of education:</label>
         </div>
@@ -101,32 +101,31 @@
         </div>
       </div>
     </div>
-      <div class="panel panel-default">
-        <div class="panel-body">
-          <div class="time">
-            <label for="time">Please select how much time you estimate that you can dedicate to studying per week:</label>
-          </div>
-          <div class="radio">
-            <label>
-              <input type="radio" name="time" value="small" checked>
-              1-2 hours
-            </label>
-          </div>
-          <div class="radio">
-            <label>
-              <input type="radio" name="time" value="medium" checked>
-              2-4 hours
-            </label>
-          </div>
-          <div class="radio">
-            <label>
-              <input type="radio" name="time" value="large" checked>
-              4-6 hours or more
-            </label>
-          </div>
+    <div class="panel panel-default">
+      <div class="panel-body">
+        <div class="time">
+          <label for="time">Please select how much time you estimate that you can dedicate to studying per week:</label>
+        </div>
+        <div class="radio">
+          <label>
+            <input type="radio" name="time" value="small" checked>
+            1-2 hours
+          </label>
+        </div>
+        <div class="radio">
+          <label>
+            <input type="radio" name="time" value="medium" checked>
+            2-4 hours
+          </label>
+        </div>
+        <div class="radio">
+          <label>
+            <input type="radio" name="time" value="large" checked>
+            4-6 hours or more
+          </label>
+        </div>
       </div>
     </div>
-
     <div class="panel panel-default">
       <div class="panel-body">
         <div class="location">
@@ -155,9 +154,11 @@
   <button type="button" class="btn btn-success btn-md">Click here to see your ideal language!</button>
   </form>
 
-  <div id="results">
-    <div id="javascript">
-      <h1>Your match: Javascript</h1>
+  <div id="final">
+      <p>Your ideal language is <span id="result"></span></p>
+
+      <div id="javascript">
+    <h1>Your match: Javascript</h1>
         <p>You have matched with Javascript. We think you will only need a highschool level education to learn this language with atleast one hour of time per week to study. We recommend using <a href="https://studio.code.org/courses" target="_blank">Code.org </a> to learn more about this language. </p>
     </div>
     <div id="csharp">
