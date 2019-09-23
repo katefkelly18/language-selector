@@ -5,18 +5,19 @@
 #### By _**Kate Kelly**_
 
 ## Setup/Installation Requirements
-* _Create a directory named language-selector on the desktop_
-* _Create sub directories within the root directory named html, img, js and css_
-* _Create styles.css under the css sub directory_
-* _Create the index.html under the html sub directory_
-* _Git Init_
-* _Git add ._
-* _Git remote add . to https://github.com/katefkelly18/language-selector.git_
-* _Git commit -m"initial commit"_
-* _Git push -u origin master_
-* _Write css commands_
-* _Write cascading HTML in index.html_
-* _Continue to push updates every hour to Github_
+This webpage may be viewed on any web browser and edited by following the instructions below to clone or download the repository to your computer.
+
+Click [here]https://github.com/katefkelly18/language-selector.git to open the GitHub  website.
+
+###### From GitHub
+1. Click the **Clone or download** menu button.
+2. Within the dropdown, click the **Download zip** button.
+
+###### From the command line 
+1. To change the directory, type `cd Desktop` after the command prompt.
+2. To clone the repository to your Desktop, type `git clone https://github.com/katefkelly18/language-selector.git
+ after the command prompt. (This web URL can be located within the **Clone or download** dropdown button in GitHub.)
+
 
 ## No known bugs at this time
 
