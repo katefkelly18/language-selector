@@ -8,9 +8,11 @@ $(document).ready(function() {
     var work = $("input:radio[name=work]:checked").val();
     var time = $("input:radio[name=time]:checked").val();
     var location = $("input:radio[name=location]:checked").val();
-    console.log(education, level, work, time, location)
+    var showJavascript = education === "highschool" && level === "beginner" && work === "alone" && time === "small" && location === "seattle"
+    console.log(showJavascript)
+console.log()
   $("#results").show();
-    if (education === "highschool" && level === "beginner" && work === "alone" && time === "small" && location === "seattle") {
+    if (showJavascript) {
       $("#javascript").show();
     }
     event.preventDefault();
