@@ -9,11 +9,17 @@ $(document).ready(function() {
     var time = $("input:radio[name=time]:checked").val();
     var location = $("input:radio[name=location]:checked").val();
     var showJavascript = education === "highschool" && level === "beginner" && work === "alone" && time === "small" && location === "seattle"
-    console.log(showJavascript)
-console.log()
+    var showCsharp = education === "associate" && level === "beginner" && work === "alone" && time === "small" && location === "seattle"
+    console.log('js',showJavascript)
+    console.log('csharp',showCsharp)
+      $("#javascript").hide();
+      $("#csharp").hide();
   $("#results").show();
     if (showJavascript) {
       $("#javascript").show();
+    }
+    if (showCsharp) {
+      $("#csharp").show();
     }
     event.preventDefault();
   });
